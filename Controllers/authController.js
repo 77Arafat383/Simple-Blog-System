@@ -1,5 +1,5 @@
 
-const bcrypt = require('bcryptjs');
+const bcrypt = require('bcryptjs');   
 const jwt = require('jsonwebtoken');  //use for authentication;
 const {createUser, findUserByEmail} = require('../models/userModel');
 
